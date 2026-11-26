@@ -64,7 +64,7 @@ O marketplace não é perfeito. Na prática, os eventos chegam:
 2. **Fora de ordem**: um `shipped` pode chegar antes do `ready_to_ship`.
 3. **Com falhas do outro lado**: o `PaymentGateway` às vezes demora ou responde com erro.
 
-E já aconteceu de **um motorista receber o mesmo pagamento duas vezes**.
+Se esses casos não forem bem tratados, **um motorista pode receber o mesmo pagamento duas vezes**.
 
 ---
 
